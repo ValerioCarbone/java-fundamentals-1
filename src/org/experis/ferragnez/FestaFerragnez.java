@@ -26,21 +26,21 @@ public class FestaFerragnez {
         boolean isInTheList = false;
 
 
-        /* Cycle the guests list to check the name of the person at the door
-       for (int i = 0; i < guests.length; i++) {
+        // Cycle the guests list to check the name of the person at the door
+        for (int i = 0; i < guests.length; i++) {
 
-            if (guests[i].equalsIgnoreCase(personAtTheDoor) ) {
+            if (guests[i].equalsIgnoreCase(personAtTheDoor)) {
 
-               // If there is a match, print the positive message and break the loop
+                // If there is a match, print the positive message and break the loop
                 isInTheList = true;
                 System.out.println("You're in!");
                 break;
             }
 
-        } */
+        } //
 
 
-        // Alternative for loop (for each)
+        /* Alternative for loop (for each)
 
         for (String guest : guests) {
             if (guest.equalsIgnoreCase(personAtTheDoor)) {
@@ -49,7 +49,7 @@ public class FestaFerragnez {
                 System.out.println("You're in!");
                 break;
             }
-        }
+        } */
 
 
         // If there was no match print the negative message
