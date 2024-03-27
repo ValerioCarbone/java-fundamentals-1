@@ -7,11 +7,11 @@ public class CalcolaBiglietto {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Quanti km vuoi percorrere?");
+        System.out.println("How many km you have to travel?");
 
         int km = Integer.parseInt(scan.nextLine());
 
-        System.out.println("Quanti anni hai?");
+        System.out.println("How old are you?");
 
         int age = Integer.parseInt(scan.nextLine());
 
