@@ -5,6 +5,8 @@ public class FizzBuzz {
         for (int i = 1; i <= 100; i++){
             int currentNum = i;
 
+
+            // Check the numbers and stamp the correct answer
             if (currentNum % 3 == 0 && currentNum % 5 == 0){
                 System.out.println("FizzBuzz");
             }else if (currentNum % 3 == 0){
