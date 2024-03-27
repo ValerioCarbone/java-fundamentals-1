@@ -12,11 +12,11 @@ public class CalcolaBiglietto {
         // Ask age and km to travel
         System.out.println("How many km you have to travel?");
 
-        int km = Integer.parseInt(scan.nextLine());
+        int km = scan.nextInt();
 
         System.out.println("How old are you?");
 
-        int age = Integer.parseInt(scan.nextLine());
+        int age = scan.nextInt();
 
 
         // Calculate the price x km

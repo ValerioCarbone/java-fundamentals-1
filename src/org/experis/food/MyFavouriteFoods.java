@@ -11,7 +11,7 @@ public class MyFavouriteFoods {
         System.out.println(bestFoodList.length);
 
 
-        // Stamp the most favourite food
+        // Stamp my most favourite food
         System.out.println(bestFoodList[0]);
 
 
